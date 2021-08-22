@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abu"
+    tools:context=".PembayaranBerhasil">
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/checkK"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/ic_baseline_check_24"/>
+        <TextView
+            android:id="@+id/pembayaranDone"
+            android:layout_marginTop="0dp"
+            android:layout_below="@+id/checkK"
+            android:layout_centerHorizontal="true"
+            android:textSize="36dp"
+            android:fontFamily="@font/ossemibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Pembayaran Berhasil"/>
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/pembayaranDone"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/ossemibold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="Terimakasih telah membeli preset kami. Kami telah mengirimkan file melalui email. Mohon cek Email anda. Anda bisa cek riwayat transaksi di Menu Riwayat Transaksi"
+            android:layout_marginBottom="180dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:background="@color/bgHarga"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:id="@+id/btnBeranda"
+            android:background="@color/bgHarga"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ossemibold"
+            android:text="Kembali ke Beranda"/>
+        <TextView
+            android:id="@+id/btnRiwayat"
+            android:layout_alignParentRight="true"
+            android:background="@color/black"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:fontFamily="@font/ossemibold"
+            android:text="Riwayat Transaksi"/>
+    </RelativeLayout>
+
+</RelativeLayout>

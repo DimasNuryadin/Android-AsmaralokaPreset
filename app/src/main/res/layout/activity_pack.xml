@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Pack">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:fontFamily="@font/ossemibold"
+            android:layout_marginTop="10dp"
+            android:text="Pack"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_margin="3dp"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/kyoto"
+                    android:layout_width="230dp"
+                    android:layout_height="220dp"
+                    app:cardCornerRadius="16dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bgJudul"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="154dp"
+                            android:src="@drawable/kyoto" />
+                        <TextView
+                            android:id="@+id/txtKyoto1"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/ossemibold"
+                            android:text="Kyoto"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:id="@+id/txtKyoto2"
+                            android:layout_marginTop="3dp"
+                            android:layout_gravity="center"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/osregular"
+                            android:text="IDR 100.000"
+                            android:textColor="@color/judul" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/travelFilmMaker"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="216dp"
+                    app:cardCornerRadius="16dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bgJudul"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="153dp"
+                            android:src="@drawable/travelfilmmaker" />
+                        <TextView
+                            android:id="@+id/txtTravelF1"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/ossemibold"
+                            android:text="Travel Film Maker"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:id="@+id/txtTravelF2"
+                            android:layout_marginTop="3dp"
+                            android:layout_gravity="center"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/osregular"
+                            android:text="IDR 78.000"
+                            android:textColor="@color/judul" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sahara"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="170dp"
+                    app:cardCornerRadius="16dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bgJudul"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="109dp"
+                            android:src="@drawable/sahara" />
+                        <TextView
+                            android:id="@+id/txtSahara1"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/ossemibold"
+                            android:text="Sahara"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:id="@+id/txtSahara2"
+                            android:layout_marginTop="3dp"
+                            android:layout_gravity="center"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/osregular"
+                            android:text="IDR 78.000"
+                            android:textColor="@color/judul" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_margin="3dp"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/moodyVol3"
+                    android:layout_width="230dp"
+                    android:layout_height="220dp"
+                    app:cardCornerRadius="16dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bgJudul"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="154dp"
+                            android:src="@drawable/moodyvol3" />
+                        <TextView
+                            android:id="@+id/txtMoodyVol1"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/ossemibold"
+                            android:text="Moody Vol.3"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:id="@+id/txtMoodyVol2"
+                            android:layout_marginTop="3dp"
+                            android:layout_gravity="center"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/osregular"
+                            android:text="IDR 76.000"
+                            android:textColor="@color/judul" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/rusticWeeding"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="230dp"
+                    android:layout_height="216dp"
+                    app:cardCornerRadius="16dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bgJudul"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:src="@drawable/rusticweeding" />
+                        <TextView
+                            android:id="@+id/txtRusticWeeding1"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="19dp"
+                            android:fontFamily="@font/ossemibold"
+                            android:text="Rustic Weeding"
+                            android:textColor="@color/black" />
+                        <TextView
+                            android:id="@+id/txtRusticWeeding2"
+                            android:layout_marginTop="3dp"
+                            android:layout_gravity="center"
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/osregular"
+                            android:text="IDR 80.000"
+                            android:textColor="@color/judul" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

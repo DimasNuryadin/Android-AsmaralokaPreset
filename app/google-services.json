@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "264193984482",
+    "project_id": "asmaraloka-preset",
+    "storage_bucket": "asmaraloka-preset.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264193984482:android:ce10d25dc7ec6e08d75bbb",
+        "android_client_info": {
+          "package_name": "com.example.asmaralokapreset"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264193984482-2v9iubtttg7625hreqb7hoftdtd5bd9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asmaralokapreset",
+            "certificate_hash": "f80b7735e984e68f52fee853de348e9522c5677e"
+          }
+        },
+        {
+          "client_id": "264193984482-getcbujgpvg4q86dmuep2hrkd7r6nhh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnvSX14coipC4xo-0XAkzsXbGvkiHsyak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264193984482-getcbujgpvg4q86dmuep2hrkd7r6nhh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

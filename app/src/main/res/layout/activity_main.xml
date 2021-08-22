@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="match_parent"
+        android:layout_height="326dp"
+        android:src="@drawable/faded"/>
+
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgProfile">
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ossemibold"
+            android:textSize="36dp"
+            android:text=""/>
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_marginTop="22dp"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preset dapat memberikan foto Anda konversi hitam putih
+kontras tinggi yang indah.  "
+            android:textColor="@color/abu"
+            android:fontFamily="@font/osregular"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:id="@+id/txt3"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preset ini telah dibuat dengan hati-hati oleh ahli lightroom
+profesional yang kreatif sehingga akan terlihat bagus
+dengan berbagai jenis merek foto dan kamera."
+            android:textColor="@color/abu"
+            android:fontFamily="@font/osregular"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:id="@+id/txt4"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setiap preset juga dapat diedit penuh sehingga Anda dapat
+menyempurnakan foto."
+            android:textColor="@color/abu"
+            android:fontFamily="@font/osregular"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:id="@+id/txt5"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preset ini bekerja dengan cara non-destruktif untuk
+mendapatkan tampilan berkualitas tinggi."
+            android:textColor="@color/abu"
+            android:fontFamily="@font/osregular"/>
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="400dp"
+        android:layout_height="70dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bgHarga">
+
+            <TextView
+                android:id="@+id/harga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/ossemibold"
+                android:text=""
+                android:textColor="@color/abu"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/harga"
+                android:layout_marginLeft="18dp"
+                android:layout_toRightOf="@+id/harga"
+                android:fontFamily="@font/ossemibold"
+                android:text="(Total Price)"
+                android:textColor="@color/abu"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/beli"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="120dp"
+        android:layout_height="70dp">
+        <RelativeLayout
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="16dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ossemibold"
+                android:textColor="@color/white"
+                android:text="Beli"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
